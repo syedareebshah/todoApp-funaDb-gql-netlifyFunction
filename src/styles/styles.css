@@ -1,0 +1,52 @@
+.main{
+    max-width: 500px;
+    min-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 1px 2px 28px black;
+    padding-top: 10px;
+}
+.topDiv{
+    padding-top: 30px;
+}
+.topDiv > form >input{
+    padding: 10px;
+    outline-style: double;
+}
+.topDiv >form >button{
+    padding: 12px;
+    margin-left: 5px;
+    border: double;
+}
+.topDiv >form >button:hover{
+    background-color: aqua;
+}
+.LowerDiv{
+    color: white;
+    background-color: #0D1E53;
+    border-top-left-radius: 37px;
+    border-top-right-radius: 37px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.line{
+    border-radius: 5px;
+    background-color: #05258d;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.line > button{
+    padding: 0px 5px 0px 5px;
+}
+.line > button:hover{
+background-color: aqua;
+}
+.emp{
+    padding: 0px 20px 0px 20px;
+}
